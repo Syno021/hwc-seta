@@ -1,0 +1,26 @@
+.payments-page {
+  max-width: 700px;
+}
+
+.payments-table-wrap {
+  overflow-x: auto;
+}
+
+.payments-page .data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.payments-page .data-table th,
+.payments-page .data-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.payments-page .data-table th {
+  font-weight: 600;
+  color: var(--navy);
+  background: var(--light-grey);
+}

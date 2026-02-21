@@ -1,0 +1,35 @@
+/* HWC SETA Design System - Government Professional */
+:root {
+  /* Brand Colors */
+  --navy: #0B3D91;
+  --royal-blue: #1E5AA8;
+  --gold: #D4AF37;
+  --gold-light: #E5C65C;
+  --light-grey: #F4F6F9;
+  --white: #FFFFFF;
+
+  /* Semantic */
+  --bg-page: var(--light-grey);
+  --bg-card: var(--white);
+  --text-primary: #1a1a2e;
+  --text-secondary: #5a5a72;
+  --border: #e2e6eb;
+  --shadow: 0 2px 8px rgba(11, 61, 145, 0.08);
+  --shadow-lg: 0 4px 20px rgba(11, 61, 145, 0.12);
+  --radius: 10px;
+  --radius-sm: 6px;
+  --sidebar-width: 260px;
+  --header-height: 64px;
+
+  /* Status */
+  --status-approved: #22c55e;
+  --status-pending: #f59e0b;
+  --status-rejected: #ef4444;
+
+  /* Typography */
+  font-family: 'Inter', 'Segoe UI', Roboto, system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

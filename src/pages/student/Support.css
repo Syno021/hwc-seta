@@ -1,0 +1,35 @@
+.support-page {
+  max-width: 640px;
+}
+
+.support-text {
+  margin: 0 0 0.5rem;
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+}
+
+.support-faq {
+  margin-top: 1.25rem;
+}
+
+.faq-list {
+  margin: 0;
+}
+
+.faq-list dt {
+  margin: 1rem 0 0.35rem;
+  font-weight: 600;
+  color: var(--navy);
+  font-size: 0.9375rem;
+}
+
+.faq-list dt:first-child {
+  margin-top: 0;
+}
+
+.faq-list dd {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}

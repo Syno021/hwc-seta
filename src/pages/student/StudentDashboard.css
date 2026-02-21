@@ -1,0 +1,79 @@
+.page-title {
+  margin: 0 0 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.student-dashboard .stat-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-card__label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.stat-card__value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.stat-card__value--small {
+  font-size: 1rem;
+}
+
+.stat-card__bar {
+  height: 6px;
+  background: var(--light-grey);
+  border-radius: 3px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+
+.stat-card__bar-fill {
+  height: 100%;
+  background: var(--royal-blue);
+  border-radius: 3px;
+  transition: width 0.3s;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.25rem;
+}
+
+.notif-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.mini-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.mini-table th,
+.mini-table td {
+  padding: 0.5rem 0;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.mini-table th {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.mini-table td {
+  color: var(--text-secondary);
+}

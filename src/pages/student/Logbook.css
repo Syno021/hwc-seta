@@ -1,0 +1,54 @@
+.logbook-page {
+  max-width: 900px;
+}
+
+.logbook-upload {
+  margin-bottom: 1.5rem;
+}
+
+.logbook-upload__hint {
+  margin: 0 0 0.75rem;
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+}
+
+.logbook-upload__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.logbook-upload__row input[type="file"] {
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.9375rem;
+}
+
+.logbook-table-wrap {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.data-table th {
+  font-weight: 600;
+  color: var(--navy);
+  background: var(--light-grey);
+}
+
+.data-table td {
+  color: var(--text-primary);
+}
